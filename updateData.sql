@@ -4,4 +4,4 @@ WHERE name = 'Harry Potter';
 
 UPDATE books
 SET "authorId" = 1 
-WHERE id IN (3,4);
+WHERE books.id IN (3,4);
